@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import RestaurantService from '../services/restaurant';
 import { connect } from "react-redux";
 import * as Types from '../store/types';

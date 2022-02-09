@@ -4,11 +4,7 @@ import * as Types from '../store/types';
 
 import background from '../Images/homepage-background.jpeg';
 import { makeStyles } from '@material-ui/core';
-import { Typography, TextField, Button, Box } from '@material-ui/core';
-import { useForm } from 'react-hook-form';
-import UserService from '../services/user';
-import { useNavigate } from 'react-router-dom';
-import Swal from 'sweetalert2';
+import { Typography, Button } from '@material-ui/core';
 import RestaurantLogin from './RestaurantLogin';
 import UserLogin from './UserLogin';
 
